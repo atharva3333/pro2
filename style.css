@@ -1,0 +1,115 @@
+body{
+    font-family: 'Azeret Mono', monospace;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+.container-fluid{
+    margin: 0 7.5em;
+}
+
+.button-checkup{
+    margin: 0 0 0 3em;
+}
+
+.first{
+    background-image: linear-gradient(to bottom right, #8421c8, #5728b5);
+    color: white;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.content{
+    align-items: center;
+    margin: 0 7.5em 0 7.5em;
+    
+}
+
+.btn-chat{
+    padding: 1em 2em;
+    background-color: #e71eae;
+    
+}
+
+
+
+.Testimonials{
+    padding: 2.5em 7em;
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 38rem;
+    left: 10%;
+    text-align: center;
+}
+
+.info-stats{
+    background-image: linear-gradient(to bottom right, #fcfcfe, #f8f4fd);
+    
+}
+
+.info-stats h1 , h2{
+    font-size: 3rem;
+    padding-top: 6em;
+    
+}
+
+
+
+@media (max-width: 1200px) {
+    .content{
+        text-align: center;
+    }
+    .content , .container-fluid{
+        margin: 0 3em 0 3em;
+
+    }
+
+    .logo img{
+        width: 20%;
+    }
+
+    .Testimonials{
+        left: 3rem;
+        right: 3rem;
+    }
+
+    .numbers h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px){
+   .numbers h2{
+       font-size: 2rem;
+   }
+   .Testimonials{
+       text-align: center;
+       top: 50rem;
+       left:1rem;
+       right: 1rem;
+   }
+   .model-img img{
+       width: 60%;
+   }
+}
+
+@media (max-width: 576px){
+    .Testimonials{
+        top: 45rem;
+    }
+}
