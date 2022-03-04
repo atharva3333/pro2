@@ -24,11 +24,17 @@ body{
     color: white;
     padding-top: 4em;
     padding-bottom: 2em;
+    width: 100%;
 }
 
 h1{
     font-weight: bold;
     font-size: 4rem;
+}
+
+h2{
+    font-size: 0.5rem;
+    font-weight: bold;
 }
 
 .content{
@@ -41,6 +47,10 @@ h1{
     padding: 1em 2em;
     background-color: #e71eae;
     
+}
+
+.success{
+    color: #e71eae;
 }
 
 
@@ -65,12 +75,21 @@ h1{
 .info-stats h1 , h2{
     font-size: 3rem;
     padding-top: 6em;
+    font-weight: 700;
     
+}
+
+h2{
+    font-size: 2.2rem;
 }
 
 
 
 @media (max-width: 1200px) {
+
+    .button-checkup{
+        margin: 0;
+    }
     .content{
         text-align: center;
     }
@@ -91,6 +110,11 @@ h1{
     .numbers h2{
         font-size: 2.5rem;
     }
+
+    .info-stats h2{
+        font-size: 1rem;
+        padding-top: 4rem;
+    }
 }
 
 @media (max-width: 992px){
@@ -110,6 +134,20 @@ h1{
 
 @media (max-width: 576px){
     .Testimonials{
-        top: 45rem;
+        top: 35rem;
+        padding: 2em 2em;
+
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+    .info-stats h1{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 1rem;
+        
     }
 }
